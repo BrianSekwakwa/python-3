@@ -61,6 +61,11 @@ names = ["brian", "david", "steve", "josh", "herman"]
 
 # / Remove, removes an item given its value, if no item is found is throws a ValueError
 
-print(names)
-names.remove("drake")
-print(names)
+# print(names)
+# names.remove("brian")
+# print(names)
+
+# / Slicing, making copies of a list
+
+new_name = names[1:5]
+print(new_name)
