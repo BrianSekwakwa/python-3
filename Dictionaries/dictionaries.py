@@ -76,3 +76,45 @@ instructor = {
 # / get() - retrieves a key in an object and return None instead of a KeyError if the key does not exist
 
 # print(instructor.get("crime"))
+
+# / Pop - takes a key as an argument and removes the key-value pair from the dictionary
+
+# print(instructor)
+# print()
+# instructor.pop("name")
+# print(instructor)
+
+# / Popitem - removes a random key in the dictionary
+
+# print(instructor)
+# print()
+# instructor.popitem()
+# print(instructor)
+
+# / update - updates the keys and values in a dictionary with another set of key value pairs
+
+# more_info = {
+#   "last_name": "steele",
+#   "age": 35,
+#   "is_american": False
+# }
+
+# instructor.update(more_info)
+# print(instructor)
+
+# // DICTIONARY COMPREHENSION
+
+# { __ : __ for __ in ___ }
+
+# Example
+
+
+# numbers = {
+#   "first": 1,
+#   "second": 2,
+#   "third": 3
+# }
+
+# squared_numbers = {keys + "_number" for keys in numbers.keys()}
+
+# print(squared_numbers)
