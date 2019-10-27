@@ -63,9 +63,9 @@
 
 # / Documenting Functions
 
-def say_hello():
-  """A simple documentation for a function"""
-  return "Hello!"
+# def say_hello():
+#   """A simple documentation for a function"""
+#   return "Hello!"
 
 
-print(say_hello.__doc__)
+# print(say_hello.__doc__)
