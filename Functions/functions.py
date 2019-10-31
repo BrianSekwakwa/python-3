@@ -69,3 +69,71 @@
 
 
 # print(say_hello.__doc__)
+
+# / *args (star arguments)
+
+# A special operator we can pass to functions
+# Gathers remaining arguments as a tuple
+
+# Example 
+
+# def sum_all_nums(*args):
+#   summed = 0
+#   for num in args:
+#     summed += num
+
+#   return summed
+
+# print(sum_all_nums(1,2,3,4,5,6))
+
+# / **kwargs
+
+# A special operator we can pass to functions
+# Gathers remaining keyword arguments as a dictionary
+
+
+# Example
+
+# def fav_color(**kwargs):
+#   name = kwargs["name"]
+#   age = kwargs["age"]
+#   color = kwargs["fav_color"]
+#   message = f"The name of the user is {name}, the user is {age} years old and favorite color is {color}"
+
+#   print(message)
+
+# fav_color(name="brian",age=25,fav_color="blue")
+
+# / Ordering Parameters
+
+# 1. parameters
+# 2. *args
+# 3. defaults parameters
+# 4. **kwargs
+
+# / Tuple Unpacking
+
+# def sum_all_values(*args):
+#   total = 0
+#   print(args)
+#   for num in args:
+#     total += num
+#   print(total)
+
+# nums = [1,2,3,4,5,6]
+
+# print(*nums)
+# sum_all_values(*nums)
+
+# / Dictionary Unpacking
+
+# def names(first,second):
+#   message = f"Hey there {first} and {second} how are you doing today"
+#   print(message)
+
+# user_names = {
+#   "first": "colt",
+#   "second": "Rusty"
+# }
+
+# names(**user_names)
