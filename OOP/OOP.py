@@ -69,23 +69,28 @@
 
 # Example
 
-class Animal:
-    cool = True
+# class Animal:
+#     cool = True
 
-    def __init__(self, animal, sound):
-        self.animal = animal
-        self.sound = sound
+#     def __init__(self, animal, sound):
+#         self.animal = animal
+#         self.sound = sound
 
-    def make_sound(self):
-        return f"A {self.animal} makes a {self.sound} sound"
-
-
-class Cat(Animal):
-    pass
+#     def make_sound(self):
+#         return f"A {self.animal} makes a {self.sound} sound"
 
 
-animal1 = Animal("cow", "moo")
-print(animal1.make_sound())
+# class Cat(Animal):
+#     pass
 
-animal2 = Cat("cat", "meow")
-print(animal2.make_sound())
+
+# animal1 = Animal("cow", "moo")
+# print(animal1.make_sound())
+
+# animal2 = Cat("cat", "meow")
+# print(animal2.make_sound())
+
+
+# // Polymorphism
+
+# A key principle in OOP is the idea of an object can take on many (poly) forms (morph)
